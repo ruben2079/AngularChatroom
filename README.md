@@ -7,10 +7,9 @@ This is project based on angular with the following implementations:
 - [x] Sass used for styling
 - [x] Gulp as a task automation
 
-Please take a look at an online project built from ground up using Angular and other technologies below:
+**Please take a look at an online project built from ground up using Angular and other technologies below:**
 
-# Pryices
-
+# Pryices - Online Project
 
 This is a personal project I have worked on since most of the projects for I have done for companies are internal and are not available for the public. I have worked on a data driven web application compatible for different browsers, devices, and different operating systems **(Windows and Mac)**. 
 

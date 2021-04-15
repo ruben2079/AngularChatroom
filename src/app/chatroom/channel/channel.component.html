@@ -1,0 +1,27 @@
+<div class="channel-section">
+  <div class="header-info">
+    <h3>{{ chatroomName }}</h3>
+    <div class="user-list">
+      <span class="username">{{ username }}</span>
+      <ul *ngFor="let otherUser of userList">
+        <li>{{ otherUser }}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="message-container">
+    <div *ngFor="let otherMessage of messageList">
+      <div class="other-message-wrapper">
+        <div class="other-message">{{ otherMessage.message }}</div>
+        <div class="other-message-user">{{ otherMessage.name }}</div>
+      </div>
+    </div>
+    <div *ngFor="let message of textmessages">
+      <div class="your-message-wrapper">
+        <div class="your-message">{{ message }}</div>
+      </div>
+    </div>
+  </div>
+  <div class="message-sender">
+    <input tabindex="0" name="chatMessage" [(ngModel)]="chatMessage" type="text" /><button (click)="postMessages()">Send</button>
+  </div>
+</div>

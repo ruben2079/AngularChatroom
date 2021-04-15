@@ -1,0 +1,9 @@
+@import "./../../base";
+
+.chatroom {
+  display: flex;
+  height: 100%;
+  app-channel {
+    width: 100%;
+  }
+}

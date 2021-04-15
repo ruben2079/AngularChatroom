@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+//colors
+$red-color: #ff1840;
+$light-gray: #ccc;
+$light-gray2: #eef1f2;
+$black: #000;
+$white: #fff;
+$light-blue: #5899e4;
+$dark-red: #800e21;
+$dark-gray: #909090;
+
+//transform Y axis
+@mixin transformY($num) {
+  -ms-transform: translateY($num);
+  transform: translateY($num);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}

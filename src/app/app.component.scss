@@ -1,0 +1,32 @@
+@import "./../base";
+
+main, section {
+  display: block;
+  height: 100%;
+}
+div.login-container {
+    margin: 0 auto;
+    max-width: 350px;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 175px);
+    @include transformY(-50);
+    input[type="text"]{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: $red-color;
+      color: $white;
+      border: 0;
+      box-sizing: border-box;
+      outline: 0;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+}

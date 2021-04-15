@@ -1,0 +1,9 @@
+<main>
+  <section *ngIf="router == '/home'">
+    <div class="login-container">
+      <input name="username" [(ngModel)]="username" type="text" placeholder="Type your username..." />
+      <button (click)="loginUser()">Join the Angular chat!</button>
+    </div>
+  </section>
+  <router-outlet></router-outlet>
+</main>

@@ -7,6 +7,8 @@ This is project based on angular with the following implementations:
 - [x] Sass used for styling
 - [x] Gulp as a task automation
 
+The user is able to send messages in different chatrooms where the messages are kept even when the user changes rooms. A timer is in place just to give the user the idea for how long he/she has been active in the web app.
+
 **Please take a look at an online project built from ground up using Angular and other technologies below:**
 
 # Pryices - Online Project

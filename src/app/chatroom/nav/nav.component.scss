@@ -1,0 +1,31 @@
+@import "./../../../base";
+
+nav.user-info-nav {
+  background-color: $red-color;
+  height: 100%;
+  color: $white;
+  font-family: arial, verdana, sans-serif;
+  width: 250px;
+  div.use-info {
+    padding: 20px;
+  }
+  ul.navlinks {
+    padding: 0;
+    box-sizing: border-box;
+    li {
+      list-style-type: none;
+      padding: 20px;
+      &:hover {
+        background-color: $dark-red;
+      }
+      a {
+        text-decoration: none;
+        color: $white;
+        width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+    }
+  }
+}

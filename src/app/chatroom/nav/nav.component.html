@@ -1,0 +1,9 @@
+<nav class="user-info-nav">
+  <div class="use-info">
+    <h3>{{ username }}</h3>
+    <span>Online for {{ minutes }} minute(s)</span>
+  </div>
+  <ul class="navlinks" *ngFor="let room of rooms">
+    <li><a (click)="chooseRoom(room.id, $event)">{{ room.name }}</a></li>
+  </ul>
+</nav>
